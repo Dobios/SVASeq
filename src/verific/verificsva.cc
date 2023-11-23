@@ -72,13 +72,15 @@
 
 
 #include "kernel/yosys.h"
-#include "frontends/verific/verific.h"
+#include "verific.h"
 
 USING_YOSYS_NAMESPACE
 
 #ifdef VERIFIC_NAMESPACE
 using namespace Verific;
 #endif
+
+using namespace std;
 
 PRIVATE_NAMESPACE_BEGIN
 
